@@ -126,6 +126,7 @@
 &trans        &bootloader   &sys_reset      &trans      &trans   &trans          &rgb_ug RGB_TOG  &tog 0      &trans  &trans            &trans             &trans
             >;
 
+            display-name = "MOD";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -137,6 +138,9 @@
 &trans  &bootloader  &trans  &trans  &trans  &out OUT_BLE          &trans  &trans  &trans        &trans  &trans  &bootloader  &trans
 &trans  &trans       &trans  &trans  &trans  &trans                &trans  &trans  &trans        &trans  &trans  &trans
             >;
+
+            display-name = "RESETS";
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
