@@ -131,11 +131,11 @@
 
         layer_3 {
             bindings = <
-&tog 0  &tog 1       &tog 2  &tog 3  &trans  &trans          &trans  &trans  &trans        &trans  &trans  &trans       &trans
-&trans  &trans       &trans  &trans  &trans  &trans          &trans  &trans  &out OUT_USB  &trans  &trans  &trans       &trans
-&trans  &sys_reset   &trans  &trans  &trans  &trans          &trans  &trans  &trans        &trans  &trans  &sys_reset   &trans
-&trans  &bootloader  &trans  &trans  &trans  &out OUT_BLE    &trans  &trans  &trans        &trans  &trans  &bootloader  &trans
-&trans  &trans       &trans  &trans  &trans  &trans          &trans  &trans  &trans        &trans  &trans  &trans
+&tog 0  &tog 1       &tog 2  &tog 3  &trans  &trans                &trans  &trans  &trans        &trans  &trans  &trans       &trans
+&trans  &trans       &trans  &trans  &trans  &kp LC(LA(DELETE))    &trans  &trans  &out OUT_USB  &trans  &trans  &trans       &trans
+&trans  &sys_reset   &trans  &trans  &trans  &trans                &trans  &trans  &trans        &trans  &trans  &sys_reset   &trans
+&trans  &bootloader  &trans  &trans  &trans  &out OUT_BLE          &trans  &trans  &trans        &trans  &trans  &bootloader  &trans
+&trans  &trans       &trans  &trans  &trans  &trans                &trans  &trans  &trans        &trans  &trans  &trans
             >;
         };
     };
